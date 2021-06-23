@@ -10,6 +10,7 @@ function App() {
         <Link to="/">Home</Link>
         <Link to="/otherpage">OtherPage</Link>
       </header>
+      <h1>Fib Calculator Version 2</h1>
       <Switch>
         <Route exact path="/">
           <Fib />
